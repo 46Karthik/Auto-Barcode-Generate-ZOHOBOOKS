@@ -1,1 +1,2 @@
 # Auto-Barcode-Generate-ZOHOBOOKS
+Auto-Barcode-Generate is a process of automatically generating barcodes for a large number of products, items, or inventory in an efficient and accurate way. Barcodes are unique identifiers that contain information about the product, such as its name, price, and other details. They are widely used in retail and inventory management to simplify the process of tracking and managing products.
