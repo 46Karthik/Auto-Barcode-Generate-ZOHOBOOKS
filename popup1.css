@@ -1,0 +1,14 @@
+
+#barcode{
+    width: 100%;
+    height: 50%;
+
+}
+#ShopName {
+    float: left;
+  }
+
+#PurchasePrice{
+    float: right;
+   width: 33.33%;
+} 

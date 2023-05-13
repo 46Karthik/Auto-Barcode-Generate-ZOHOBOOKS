@@ -1,0 +1,14 @@
+
+.Productname{
+  padding-top: 30px;
+  width: auto;
+  text-align: center;
+  font-size:auto
+}
+ #ShopName {
+  float: left;
+}
+ #PurchasePrice{
+    float: right;
+   width: 33.33%;
+} 

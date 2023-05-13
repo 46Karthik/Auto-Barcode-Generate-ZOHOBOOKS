@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Extension Popup</title>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="/Jsbarcode.all.min.js"></script>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div id="Body">
+    <h1>Barcode</h1>
+    <input type="checkbox" name="option1" id="option1" value="Bike">
+    <label for="option1">sku</label>
+    <br>
+    <input type="checkbox" name="option2" id="option2" value="Car">
+    <label for="option2">name01</label>
+    <br>
+    <input type="checkbox" name="option3" id="option3">
+    <label for="option3">PurchasePrice</label>
+    <br>
+    <input type="checkbox" name="option4" id="option4">
+    <label for="option4">SellingPrice</label>
+    <br>
+    <input type="checkbox" name="option5" id="option5">
+    <label for="option5">shop</label>
+    <p>Enter the Encode:</p>
+    <input type="text" id="Encode">
+    <input type="button" id="clear" value="clear">
+    <button id="button">Submit</button> <br>
+    <input type="button" id="save" value="generate"><br>
+    <div id="finaloutput">
+      <div id="SKU"></div>
+      <div id="Product name" class="Productname" ></div>
+      <svg id="barcode"></svg>
+      <div id="ShopName"></div>
+      <div id="PurchasePrice"></div>
+    </div>
+    <div id="encode01"></div>
+    <script src="/popup.js"></script>
+  </div>
+</body>
+
+</html>
